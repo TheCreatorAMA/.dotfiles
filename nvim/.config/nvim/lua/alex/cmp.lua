@@ -65,6 +65,9 @@ cmp.setup {
     -- Accept currently selected item. If none selected, `select` first item.
     -- Set `select` to `false` to only confirm explicitly selected items.
     ["<CR>"] = cmp.mapping.confirm { select = true },
+
+    -- This is the super tab logic. Allows you to jump around
+    -- in the menu.
     ["<Tab>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_next_item()
@@ -94,6 +97,7 @@ cmp.setup {
       "s",
     }),
   },
+  
   formatting = {
     fields = { "kind", "abbr", "menu" },
     format = function(entry, vim_item)
@@ -108,6 +112,7 @@ cmp.setup {
       return vim_item
     end,
   },
+  -- This is what formats the menu for cmp. You can change the order of what gets recommended here.
   sources = {
     { name = "luasnip" },
     { name = "buffer" },
