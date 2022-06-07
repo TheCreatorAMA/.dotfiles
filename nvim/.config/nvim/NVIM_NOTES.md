@@ -9,6 +9,7 @@
 - [nvim-cmp](#nvim-cmp) [](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-lspconfig](#nvim-lspconfig) [](https://github.com/neovim/nvim-lspconfig)
 - [nvim-lsp-installer](#nvim-lsp-installer) [](https://github.com/williamboman/nvim-lsp-installer)
+- [nvim-telescope](#nvim-telescope) [](https://github.com/nvim-telescope/telescope.nvim)
 
 ## Notes
 ---
@@ -48,3 +49,11 @@
 
 ### nvim-lsp-installer
 
+### nvim-telescope
+**Description:**
+*nvim-telescope is a fuzzyfinder, basically an OP way of navigating files and searching files.*
+
+**Useful Notes to Remember**
+- There is A LOT more you can do other than live_grep and file searching. Be sure to explore using ":Telescope <tab>"
+- You can modify the way telescope looks by modifying the theme in keymaps.lua
+- Extensions for telescope can be found [here](https://github.com/nvim-telescope/telescope.nvim/wiki/Extensions).
