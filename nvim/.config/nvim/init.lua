@@ -6,4 +6,4 @@ require "alex.keymaps"
 require "alex.plugins"
 require "alex.colorscheme"
 require "alex.cmp"
-
+require "alex.lsp"

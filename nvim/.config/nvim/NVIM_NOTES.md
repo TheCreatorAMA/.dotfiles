@@ -1,14 +1,36 @@
 # Notes On My NVIM Setup
 
-## Plugins Used
+## Sections
 
-- [nvim-cmp](#nvim-cmp) => [github](https://github.com/hrsh7th/nvim-cmp)
+- [LSP](#lsp)
 
-## Plugin Notes
+## Plugins
+
+- [nvim-cmp](#nvim-cmp) [](https://github.com/hrsh7th/nvim-cmp)
+- [nvim-lspconfig](#nvim-lspconfig) [](https://github.com/neovim/nvim-lspconfig)
+- [nvim-lsp-installer](#nvim-lsp-installer) [](https://github.com/williamboman/nvim-lsp-installer)
+
+## Notes
+---
+### LSp
+**Description:**
+*LSP (Language Server Protocol), is what allows features such as auto-complete, go to definition, or documentation on hover to work. Each programming language has its own LSP to allow these features to work for that language.*
+
+**Useful Notes to Remember**  
+- Folder structure for LSP setup is all under /lsp
+  - /settings *(Where all set up options for each LSP are located)*
+  - handlers.lua *(Primary setup for all LSP related stuff and keymaps for LSP)*
+  - init.lua *(Initialization file for LSP setup)*
+  - lsp-installer.lua *(Where to add options for each LSP)*
+- To install new LSP server run ":LspInstallInfo" to install new language server and press "i" to install it then follow steps below:
+  - View configuration options for LSP [here](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md).
+  - Add new if condition to lsp-installer.lua
+  - Add set up options file for that LSP in /settings
+- Use ":LspInfo" to see what LSP is attached to the current working file.
 
 ### nvim-cmp
-**Useful notes to remember**
-- Use tab when the cmp window pops up to view snippet
+**Useful Notes to Remember**
+- Use tab when the cmp window pops up to view snippet.
 - Use tab to jump to next fillable field when snippet is used.
 
   ```
@@ -21,3 +43,8 @@
   - To add a new completion source:
     1. Add new source to plugins.lua
     2. Add the new source to cmp.lua (*you can find the name of it on its repo*)
+
+### nvim-lspconfig
+
+### nvim-lsp-installer
+
