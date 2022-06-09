@@ -13,11 +13,17 @@
 - [nvim-lsp-installer](#nvim-lsp-installer) [](https://github.com/williamboman/nvim-lsp-installer)
 - [nvim-telescope](#nvim-telescope) [](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim-treesitter](#nvim-treesitter)[](https://github.com/nvim-treesitter/nvim-treesitter)
+- [nvim-autopairs](#nvim-autopairs)[](https://github.com/windwp/nvim-autopairs)
+
   
+## File Set Up
+The setup for neovim is all under .config/nvim. The structure within the nvim folder is set up with a init.lua\ 
+file which imports all other files under lua/{user name}. Under the {user name} directory is where all configuration\
+files for the plugins are placed.
 
 ## Notes
 ---
-### LSp
+### LSP
 **Description:**
 *LSP (Language Server Protocol), is what allows features such as auto-complete, go to definition, or documentation on hover to work. Each programming language has its own LSP to allow these features to work for that language.*
 
@@ -65,3 +71,17 @@
 ### nvim-treesitter
 ***Description:***
 *nvim-treesitter is what does syntax highlighting for languages*
+
+### nvim-autopairs
+**Description:**
+*Auto closing for quotes, brackets, parantheses and more*\
+
+**Useful Notes to Remember**
+- Fast wrap
+
+
+
+
+
+
+
