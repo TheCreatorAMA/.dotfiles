@@ -1,6 +1,6 @@
 # Notes On My NVIM Setup
 
-*Want to look for some more plugins? Go [here!](https://github.com/rockerBOO/awesome-neovim)*
+*Want to look for some more plugins? Go [here!](https://github.com/rockerBOO/awesome-neovim)*\
 *Need some help configuring neovim with lua? Go [here!](https://github.com/nanotee/nvim-lua-guide)*
 
 ## Sections
