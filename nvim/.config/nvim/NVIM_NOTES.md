@@ -1,11 +1,13 @@
 # Notes On My NVIM Setup
 
+*Want to look for some more plugins? Go [here!](https://github.com/rockerBOO/awesome-neovim)*
+*Need some help configuring neovim with lua? Go [here!](https://github.com/nanotee/nvim-lua-guide)*
+
 ## Sections
 
 - [LSP](#lsp)
 
 ## Plugins
-
 - [nvim-cmp](#nvim-cmp) [](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-lspconfig](#nvim-lspconfig) [](https://github.com/neovim/nvim-lspconfig)
 - [nvim-lsp-installer](#nvim-lsp-installer) [](https://github.com/williamboman/nvim-lsp-installer)

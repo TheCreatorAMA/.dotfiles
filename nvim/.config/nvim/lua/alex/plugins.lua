@@ -41,18 +41,19 @@ packer.init {
 }
 
 -- Install your plugins here
+-- If you need to use an older commit because the latest is broken you can specifiy a
+-- commit to use. Reference packer.nvim documentation
+
 return packer.startup(function(use)
-  -- My plugins here
-  -- If you need to use an older commit because the latest is broken you can specifiy a
-  -- commit to use. Reference packer.nvim documentation
 
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
 
   -- Colorschemes
-  use "EdenEast/nightfox.nvim"
+  -- Use "EdenEast/nightfox.nvim"
   use 'folke/tokyonight.nvim'
+  use 'sainnhe/sonokai'
 
   -- CMP plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -82,7 +83,7 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow" -- Colorful brackets and parantheses
-  use "nvim-treesitter/playground" -- Useful plugin for creating your own plugins for treesitter
+  -- use "nvim-treesitter/playground" -- Useful plugin for creating your own plugins for treesitter
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
