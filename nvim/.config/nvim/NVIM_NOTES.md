@@ -14,7 +14,7 @@
 - [nvim-telescope](#nvim-telescope) [](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim-treesitter](#nvim-treesitter)[](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-autopairs](#nvim-autopairs)[](https://github.com/windwp/nvim-autopairs)
-
+- [gitsigns](#gitsigns)[](https://github.com/lewis6991/gitsigns.nvim)
   
 ## File Set Up
 The setup for neovim is all under .config/nvim. The structure within the nvim folder is set up with a init.lua\ 
@@ -38,6 +38,14 @@ files for the plugins are placed.
   - Add new if condition to lsp-installer.lua
   - Add set up options file for that LSP in /settings
 - Use ":LspInfo" to see what LSP is attached to the current working file.
+
+### gitsigns
+**Description:**
+*Git decorations and more for neovim*
+
+**Useful Notes to Remember**
+- Type ":Gitsigns" then tab to see what commands you can use.
+  - Example command is ":Gitsigns preview_hunk" which shows you what changed in current hunk that cursor is in.
 
 ### nvim-cmp
 **Useful Notes to Remember**
