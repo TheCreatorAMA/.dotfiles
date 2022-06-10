@@ -15,6 +15,7 @@
 - [nvim-treesitter](#nvim-treesitter)[](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-autopairs](#nvim-autopairs)[](https://github.com/windwp/nvim-autopairs)
 - [gitsigns](#gitsigns)[](https://github.com/lewis6991/gitsigns.nvim)
+- [nvim-tree](#nvim-tree)[](https://github.com/kyazdani42/nvim-tree.lua)
   
 ## File Set Up
 The setup for neovim is all under .config/nvim. The structure within the nvim folder is set up with a init.lua\ 
@@ -87,8 +88,9 @@ files for the plugins are placed.
 **Useful Notes to Remember**
 - Fast wrap
 
-
-
+### nvim-tree
+**Description:**
+*File explorer for neovim*
 
 
 
