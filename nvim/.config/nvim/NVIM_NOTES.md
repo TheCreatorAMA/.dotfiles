@@ -16,6 +16,7 @@
 - [nvim-autopairs](#nvim-autopairs)[](https://github.com/windwp/nvim-autopairs)
 - [gitsigns](#gitsigns)[](https://github.com/lewis6991/gitsigns.nvim)
 - [nvim-tree](#nvim-tree)[](https://github.com/kyazdani42/nvim-tree.lua)
+- [bufferline](#bufferline)[](https://github.com/akinsho/bufferline.nvim)
   
 ## File Set Up
 The setup for neovim is all under .config/nvim. The structure within the nvim folder is set up with a init.lua\ 
@@ -24,6 +25,20 @@ files for the plugins are placed.
 
 ## Notes
 ---
+### bufferline
+**Description:**
+*Bufferline is a plugin that allows you to see what buffers, windows and tabs you have currently loaded in memory*
+
+
+**Useful Notes to Remember**  
+- Buffers are like "tabs" that most people are use to using. You can switch between buffers using "Shift & h or l" 
+- Windows are made when using "vsplit" and can be switched between using "Ctrl & h or l"
+- Tabs look like another whole termihttps://github.com/akinsho/bufferline.nvimnal, you can create a new tab using ":tabnew" and switch between them using "g & t" 
+
+### gitsigns
+**Description:**
+*Git decorations and more for neovim*
+
 ### LSP
 **Description:**
 *LSP (Language Server Protocol), is what allows features such as auto-complete, go to definition, or documentation on hover to work. Each programming language has its own LSP to allow these features to work for that language.*
@@ -40,9 +55,6 @@ files for the plugins are placed.
   - Add set up options file for that LSP in /settings
 - Use ":LspInfo" to see what LSP is attached to the current working file.
 
-### gitsigns
-**Description:**
-*Git decorations and more for neovim*
 
 **Useful Notes to Remember**
 - Type ":Gitsigns" then tab to see what commands you can use.

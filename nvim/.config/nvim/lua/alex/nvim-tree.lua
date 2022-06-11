@@ -1,3 +1,4 @@
+
 -- following options are the default
 -- each of these are documented in `:help nvim-tree.OPTION_NAME`
 vim.g.nvim_tree_icons = {
@@ -64,6 +65,14 @@ nvim_tree.setup {
     update_cwd = true,
     ignore_list = {},
   },
+  system_open = {
+    cmd = nil,
+    args = {},
+  },
+  filters = {
+    dotfiles = false,
+    custom = {},
+  },
   git = {
     enable = true,
     ignore = true,
@@ -85,6 +94,10 @@ nvim_tree.setup {
     },
     number = false,
     relativenumber = false,
+  },
+  trash = {
+    cmd = "trash",
+    require_confirm = true,
   },
   quit_on_open = 0,
   git_hl = 1,

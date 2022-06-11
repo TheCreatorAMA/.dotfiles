@@ -51,13 +51,15 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Commenting in code.
-  use 'kyazdani42/nvim-web-devicons'
-  use 'kyazdani42/nvim-tree.lua'
+  use "kyazdani42/nvim-web-devicons"
+  use "kyazdani42/nvim-tree.lua"
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
   -- Colorschemes
   -- Use "EdenEast/nightfox.nvim"
-  use 'folke/tokyonight.nvim'
-  use 'sainnhe/sonokai'
+  use "folke/tokyonight.nvim"
+  use "sainnhe/sonokai"
 
   -- CMP plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -79,7 +81,7 @@ return packer.startup(function(use)
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
-  use 'nvim-telescope/telescope-media-files.nvim'
+  use "nvim-telescope/telescope-media-files.nvim"
 
   -- Treesitter
   use {
@@ -87,7 +89,7 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow" -- Colorful brackets and parantheses
-  use 'JoosepAlviste/nvim-ts-context-commentstring'
+  use "JoosepAlviste/nvim-ts-context-commentstring"
   -- use "nvim-treesitter/playground" -- Useful plugin for creating your own plugins for treesitter
 
   -- git
