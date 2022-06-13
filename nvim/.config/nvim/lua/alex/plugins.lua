@@ -51,10 +51,10 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Commenting in code.
-  use "kyazdani42/nvim-web-devicons"
-  use "kyazdani42/nvim-tree.lua"
-  use "akinsho/bufferline.nvim"
-  use "moll/vim-bbye"
+  use "kyazdani42/nvim-web-devicons" -- I mean who doesnt like icons
+  use "kyazdani42/nvim-tree.lua" -- File explorer
+  use "akinsho/bufferline.nvim" -- Shows current buffers, windows and tabs that are open
+  use "moll/vim-bbye" -- Prevents neovim from closing when deleting buffer
 
   -- Colorschemes
   -- Use "EdenEast/nightfox.nvim"

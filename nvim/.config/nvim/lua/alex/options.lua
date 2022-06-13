@@ -1,6 +1,6 @@
 -- :help options
 
--- setting vim.opt to a variable so 
+-- setting vim.opt to a variable so
 -- no need to keep typing it out
 
 local options = {
@@ -42,10 +42,10 @@ local options = {
 
 
 
--- to set a new option just do 
+-- to set a new option just do
 -- <option found in :help options menu>
 
-vo = vim.opt
+local vo = vim.opt
 vo.shortmess:append "c"
 
 for key, value in pairs(options) do
