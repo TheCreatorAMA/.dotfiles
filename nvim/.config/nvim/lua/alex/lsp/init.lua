@@ -5,3 +5,4 @@ end
 
 require("alex.lsp.lsp-installer")
 require("alex.lsp.handlers").setup()
+require "alex.lsp.null-ls"
