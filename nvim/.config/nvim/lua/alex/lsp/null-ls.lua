@@ -18,7 +18,7 @@ null_ls.setup({
 
 		-- Linting
 		diagnostics.flake8,
-		diagnostics.eslint,
+		diagnostics.eslint.with({ extra_args = { "--no-eslintrc" } }),
 	},
 	on_attach = function(client)
 		-- Format on save
