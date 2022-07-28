@@ -12,13 +12,13 @@ null_ls.setup({
 	debug = false,
 	sources = {
 		-- Formatting
-		formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
+		formatting.prettierd, --.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
 
 		-- Linting
 		diagnostics.flake8,
-		diagnostics.eslint.with({ extra_args = { "--no-eslintrc" } }),
+		diagnostics.eslintd, --.with({ extra_args = { "--no-eslintrc " } }),
 	},
 	on_attach = function(client)
 		-- Format on save
